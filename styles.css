@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN LAYOUT */
+
+.main-container {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px) 1fr;
+    grid-template-rows: minmax(100px, 150px) 1fr;
+    height: 100vh;
+}
+
+.header {
+    grid-column: 2 / 3;
+    border: 1px solid black;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+    border: 1px solid black;
+}
+
+.content {
+    grid-column: 2;
+    grid-template-rows: 1 / 3;
+    border: 1px solid black;
+}
+
+/* END OF MAIN LAYOUT */
+
+/* HEADER LAYOUT */
+
+.header {
+    display: grid;
+    grid-template-columns: minmax(400px, 4fr) 1fr;
+    grid-template-rows: 2fr 3fr;
+}
+
+.search {
+    border: 1px solid black;
+}
+
+.account {
+    border: 1px solid black;
+}
+
+.greetings {
+    border: 1px solid black;
+}
+
+.buttons {
+    border: 1px solid black;
+}
+
+/* END OF HEADER LAYOUT */
+
+/* CONTENT LAYOUT */
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr minmax(250px, 300px);
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+    border: 1px solid black;
+    grid-row: 1 / 3;
+}
+
+.announcements {
+    border: 1px solid black;
+}
+
+.trending {
+    border: 1px solid black;
+    grid-column: 2;
+}
+
+/* END OF CONTENT LAYOUT */
+
+/* SIDEBAR LAYOUT */
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 70px 350px 150px;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+.sidebar-main-items {
+    border: 1px solid black;
+}
+
+.sidebar-secondary-items {
+    border: 1px solid black;
+}
+
+/* END OF SIDEBAR LAYOUT */
