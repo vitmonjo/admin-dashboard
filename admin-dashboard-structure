@@ -1,0 +1,42 @@
+page-layout
+
+    sidebar
+    header
+    content
+
+    2 columns
+    minmax(200px, 350px) 1fr
+
+    2 rows
+    minmax(150px, 250px) 1fr
+
+header
+    search
+    account
+    greetings
+    buttons
+
+    2 columns
+    minmax(400px, 4fr) 1fr
+    
+    2 rows
+    2fr 3fr
+
+content
+    projects
+    announcements
+    trending
+
+    2 columns
+    1fr minmax(150px, 180px)
+
+    2 rows
+    repeat(2, 1fr);
+
+sidebar
+    title
+    sidebar-main-items
+    sidebar-secondary-items
+
+    3 rows
+    30px 150px 50px
